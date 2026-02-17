@@ -1,16 +1,27 @@
 {
-  "name": "net.satania.vrc-component-counter.Editor",
-  "references": [
-    "VRC.SDKBase",
-    "VRC.SDKBase.Editor",
-    "net.satania.vrc-component-counter"
-  ],
-  "includePlatforms": [],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "autoReferenced": true,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "defineConstraints": [],
-  "optionalUnityReferences": []
+    "name": "net.satania.vrc-component-counter.editor",
+    "rootNamespace": "net.satania.VRCComponentCounter.editor",
+    "references": [
+        "VRC.SDKBase",
+        "VRC.SDKBase.Editor",
+        "net.satania.vrc-component-counter",
+        "nadena.dev.modular-avatar.core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.14.0",
+            "define": "MODULAR_AVATAR"
+        }
+    ],
+    "noEngineReferences": false
 }
